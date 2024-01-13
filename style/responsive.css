@@ -3,8 +3,9 @@
       padding: 15px;
     }
     
-     nav ,.teams-container{
+     nav ,.teams-container ,.features{
         flex-direction: column;
+        padding: 0px;
         }
     .teams-img-container{
         grid-template-columns: 1fr;

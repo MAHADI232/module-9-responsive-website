@@ -94,6 +94,7 @@ main{
     margin-top: 20px;
 
 }
+/* teams section style  */
 .teams-container{
     display: flex;
     align-items: center;
@@ -126,3 +127,61 @@ font-style: normal;
 .Features{
     color: #FF900E;
 }
+
+/* love-enjoy-section style */
+
+ .features{
+    display: flex;
+    padding: 0 70px;
+    margin-top: 130px;
+    gap: 100px;
+}
+.features-title{
+    color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: 10px;
+border-left: 4px solid #FF900E;
+margin-bottom:0 ;
+
+}
+.features-div{
+    background-color: rgba(240, 248, 255, 0.562);
+    
+    margin: 10px 0;
+    border-radius: 8px;
+}
+.love-enjoy-content{
+    width: 70%;
+   
+}  
+.dekstop-description{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 5px;
+    
+    line-height: 26px; /* 162.5% */
+} 
+.dekstop-title{
+ margin: 0;
+color: var(--Dark-01, #131313);
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.features-img-content{
+  
+    position: relative;
+    max-width: 100%;
+}
+
+
+
