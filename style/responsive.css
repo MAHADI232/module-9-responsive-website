@@ -3,17 +3,43 @@
       padding: 15px;
     }
     
-     nav ,.teams-container ,.features{
+     nav ,.teams-container ,
+      .features,
+      .some-card,
+      .link-card-content{
         flex-direction: column;
-        padding: 0px;
+        
         }
     .teams-img-container{
         grid-template-columns: 1fr;
-    }    
+    }  
+    .sponsers-content{
+        width: 90%;
+    }  
+    .link-img{
+        margin: 15px 0;
+    }
+    .last-title{
+        width: 100%;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 960px) and (min-width: 576px) {
-     nav,.teams-container{
+     
+        nav,
+        .teams-container, 
+        .some-card,
+        .link-card-content{
         flex-direction: column;
+        
      }
+     .features {
+       
+        padding: 0;
+         margin-top:10px; 
+     }
+     
+     
+  
 }
